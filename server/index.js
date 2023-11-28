@@ -23,7 +23,7 @@ app.post("/notes", async (req, res) => {
 });
 
 app.get("/notes", (req, res) => {
-  res.json({ msg: "Notes", success: true, notes: notes });
+  res.json({ msg: "Notes yo", success: true, notes: notes });
 });
 
 app.listen(PORT, () => {
