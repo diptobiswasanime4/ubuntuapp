@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.json({ msg: "Home Page.", success: true });
+  res.json({ msg: "Home Page!", success: true });
 });
 
 app.get("/profile", (req, res) => {
